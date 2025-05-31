@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Submódulo 1 - Java en Eclipse</title>
+  <link rel="stylesheet" href="../trabajo 18/css/estilos.css" />
+</head>
+<body>
+  <header>
+    <h1>Submódulo 1: Programación en Java con Eclipse</h1>
+  </header>
+  
+  <nav>
+    <ul class="menu">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="submodulo2.html">Submódulo 2</a></li>
+    </ul>
+  </nav>
+  
+  <main class="contenedor-flex">
+    <section>
+      <main class="contenedor-flexbox">
+      <h2>¿Qué es Eclipse?</h2>
+      <p>
+        Eclipse es un entorno de desarrollo integrado (IDE) muy utilizado para programar en Java. Proporciona herramientas para escribir, compilar, ejecutar y depurar código.
+      </p>
+
+      <h2>Pasos para crear un proyecto en Java</h2>
+      <ol>
+        <li>Abrir Eclipse e ir a <strong>File > New > Java Project</strong>.</li>
+        <li>Asignar un nombre al proyecto y hacer clic en <strong>Finish</strong>.</li>
+        <li>Dar clic derecho en el proyecto > <strong>New > Class</strong>.</li>
+        <li>Escribir un nombre para la clase (ej. <code>HolaMundo</code>) y marcar la opción <strong>public static void main</strong>.</li>
+        <li>Escribir el siguiente código:</li>
+      </ol>
+
+      <pre><code>public class HolaMundo {
+    public static void main(String[] args) {
+        System.out.println("Hola mundo desde Java y Eclipse");
+    }
+}</code></pre>
+
+      <h2>Ejecutar el programa</h2>
+      <p>
+        Haz clic derecho sobre el archivo y selecciona <strong>Run As > Java Application</strong>. Verás el resultado en la consola inferior de Eclipse.
+      </p>
+    </section>
+    </main>
+
+    <section>
+      <h2>1. Descargar e Instalar Eclipse</h2>
+      <p><strong>Ve a la página oficial de Eclipse:</strong> <a href="https://www.eclipse.org/downloads/" target="_blank">Eclipse Downloads</a></p>
+      <p><strong>Descargar la versión adecuada:</strong> Si eres nuevo en Java, descarga la opción "Eclipse IDE for Java Developers".</p>
+      <p><strong>Instalar Eclipse:</strong> Después de descargar el instalador, sigue las instrucciones para instalar Eclipse en tu sistema operativo.</p>
+    </section>
+
+    <section>
+      <h2>2. Instalar Java (JDK)</h2>
+      <ol>
+        <li><strong>Descargar JDK:</strong> Visita el sitio oficial de <a href="https://www.oracle.com/java/technologies/javase-jdk11-downloads.html" target="_blank">Oracle JDK</a> o <a href="https://adoptopenjdk.net/" target="_blank">OpenJDK</a>.</li>
+        <li><strong>Instalar JDK:</strong> Sigue las instrucciones de instalación para tu sistema operativo.</li>
+        <li><strong>Configurar JAVA_HOME:</strong> Asegúrate de configurar la variable de entorno JAVA_HOME.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>3. Configurar Eclipse con Java</h2>
+      <ol>
+        <li><strong>Abrir Eclipse:</strong> Al abrir Eclipse, elige un "workspace".</li>
+        <li><strong>Configurar JDK:</strong> Si Eclipse no detecta el JDK:
+          <ol>
+            <li>Ve a <strong>Window > Preferences</strong>.</li>
+            <li>Selecciona <strong>Java > Installed JREs</strong>.</li>
+            <li>Agrega el JDK si no aparece.</li>
+          </ol>
+        </li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>4. Crear tu Primer Proyecto Java</h2>
+      <ol>
+        <li><strong>Crear Proyecto:</strong> Selecciona <strong>File > New > Java Project</strong>.</li>
+        <li><strong>Nombre:</strong> Escribe "MiPrimerProyecto".</li>
+        <li><strong>Crear Clase:</strong> Haz clic derecho en <strong>src > New > Class</strong>.</li>
+        <li><strong>Nombre de Clase:</strong> Escribe "Main" y marca el método main.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>5. Escribir y Ejecutar Código Java</h2>
+      <p>Código de ejemplo para imprimir "¡Hola Mundo!":</p>
+      <pre><code>public class Main {
+    public static void main(String[] args) {
+        // Imprimir un mensaje en consola
+        System.out.println("¡Hola, Mundo!");
+    }
+}</code></pre>
+    </section>
+
+    <section>
+      <h2>6. Ejecutar el Proyecto</h2>
+      <p>Haz clic derecho en <strong>Main.java</strong> y selecciona <strong>Run As > Java Application</strong>.</p>
+    </section>
+
+    <section>
+      <h2>7. Depuración y Errores</h2>
+      <p>Eclipse muestra errores en la consola inferior y permite depurar con puntos de interrupción.</p>
+    </section>
+
+    <section>
+      <h2>Consejos Adicionales</h2>
+      <ul>
+        <li><strong>Ctrl + Shift + R:</strong> Buscar archivos rápidamente.</li>
+        <li><strong>Ctrl + 1:</strong> Corrección rápida.</li>
+        <li><strong>Ctrl + D:</strong> Eliminar línea actual.</li>
+      </ul>
+      <p><strong>Plugins:</strong> Usa <strong>Help > Eclipse Marketplace</strong> para agregar más funcionalidades.</p>
+    </section>
+
+    <section class="video-container">
+      <iframe class="video-borde" width="560" height="315" src="https://www.youtube.com/embed/eMt3bgO-w0M?si=Vq4Ldn2xZnMdDKLy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy;TPROG Módulo II</p>
+  </footer>
+</body>
+</html>

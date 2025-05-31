@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Submódulo 2 - Java en NetBeans</title>
+  <link rel="stylesheet" href="../trabajo 18/css/estilos.css" />
+</head>
+<body>
+  <header>
+    <h1>Submódulo 2: Programación en Java con NetBeans</h1>
+  </header>
+  
+  <nav>
+    <ul class="menu">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="submodulo1.html">Submódulo 2</a></li>
+    </ul>
+  </nav>
+  
+  <main class="contenedor-flex">
+    <section>
+      <h2>¿Qué es NetBeans?</h2>
+      <p>
+        NetBeans es un entorno de desarrollo integrado (IDE) gratuito y de código abierto que facilita la creación de aplicaciones en Java, incluyendo interfaces gráficas con Swing y JavaFX.
+      </p>
+
+      <h2>Pasos para crear un proyecto en Java</h2>
+      <ol>
+        <li>Abrir NetBeans e ir a <strong>File > New Project</strong>.</li>
+        <li>Seleccionar <strong>Java > Java Application</strong> y hacer clic en <strong>Next</strong>.</li>
+        <li>Asignar un nombre al proyecto y hacer clic en <strong>Finish</strong>.</li>
+        <li>Dentro de la clase principal, escribe el siguiente código:</li>
+      </ol>
+
+      <pre><code>public class HolaMundo {
+    public static void main(String[] args) {
+        System.out.println("Hola mundo desde Java y NetBeans");
+    }
+}</code></pre>
+
+      <h2>Ejecutar el programa</h2>
+      <p>
+        Haz clic derecho sobre el archivo o sobre el proyecto y selecciona <strong>Run</strong>. El resultado aparecerá en la consola inferior de NetBeans.
+      </p>
+    </section>
+    <header>
+      <h1>Programación en Java con NetBeans</h1>
+  </header>
+  
+  <section>
+      <h2>1. Descargar e Instalar NetBeans</h2>
+      <p>Para comenzar con la programación en Java usando NetBeans, primero necesitas descargar e instalar el IDE (Entorno de Desarrollo Integrado) NetBeans.</p>
+      <ul>
+          <li>Visita la página oficial de <a href="https://netbeans.apache.org/download/index.html" target="_blank">NetBeans</a> y descarga la última versión del IDE.</li>
+          <li>Elige la opción que incluye soporte para Java (Java SE).</li>
+          <li>Sigue las instrucciones de instalación según tu sistema operativo.</li>
+      </ul>
+  </section>
+  
+  <section>
+      <h2>2. Configurar el JDK (Java Development Kit)</h2>
+      <p>NetBeans necesita tener configurado el JDK para poder compilar y ejecutar programas Java.</p>
+      <ul>
+          <li>Descarga el JDK desde el sitio oficial de <a href="https://www.oracle.com/java/technologies/javase-jdk11-downloads.html" target="_blank">Oracle</a> o desde el sitio de <a href="https://adoptopenjdk.net/" target="_blank">AdoptOpenJDK</a>.</li>
+          <li>Instala el JDK en tu sistema siguiendo las instrucciones.</li>
+          <li>En NetBeans, se configurará automáticamente el JDK durante la instalación o se puede configurar manualmente si es necesario.</li>
+      </ul>
+  </section>
+  
+  <section>
+      <h2>3. Crear un Proyecto en Java</h2>
+      <p>Una vez que tengas NetBeans y el JDK configurado, es hora de crear tu primer proyecto Java.</p>
+      <ul>
+          <li>Abre NetBeans y selecciona <strong>Archivo &gt; Nuevo Proyecto</strong>.</li>
+          <li>Selecciona <strong>Java &gt; Proyecto Java</strong> y haz clic en <strong>Siguiente</strong>.</li>
+          <li>Asigna un nombre a tu proyecto y haz clic en <strong>Finalizar</strong>.</li>
+      </ul>
+  </section>
+  
+  <section>
+      <h2>4. Crear una Clase Java</h2>
+      <p>Para escribir tu programa en Java, necesitas crear una clase que contenga el método principal <code>public static void main(String[] args)</code>.</p>
+      <ul>
+          <li>Haz clic derecho en el paquete <strong>src</strong> en el panel izquierdo.</li>
+          <li>Selecciona <strong>Nuevo &gt; Clase Java</strong> y asigna un nombre a la clase (por ejemplo, <code>Main</code>).</li>
+          <li>Marca la casilla <strong>public static void main(String[] args)</strong> para que se genere automáticamente el método principal.</li>
+      </ul>
+  </section>
+  
+  <section>
+      <h2>5. Escribir y Ejecutar Código Java</h2>
+      <p>A continuación, escribe tu primer programa Java que imprime un mensaje en la consola:</p>
+      <pre><code>public class Main {
+      public static void main(String[] args) {
+          System.out.println("¡Hola, Mundo!");
+      }
+  }</code></pre>
+      <ul>
+          <li>Haz clic en el botón <strong>Ejecutar</strong> (el ícono verde en la parte superior) para compilar y ejecutar tu programa.</li>
+          <li>Deberías ver el mensaje <strong>¡Hola, Mundo!</strong> en la consola de NetBeans.</li>
+      </ul>
+  </section>
+  
+  <section>
+      <h2>6. Depuración y Errores</h2>
+      <p>Si tienes errores en tu código, NetBeans te mostrará un mensaje en la ventana de <strong>Errores</strong> en la parte inferior.</p>
+      <ul>
+          <li>Puedes usar el depurador de NetBeans para poner puntos de interrupción y seguir paso a paso la ejecución de tu código.</li>
+          <li>Haz clic en el botón <strong>Depurar</strong> para iniciar el depurador.</li>
+      </ul>
+  </section>
+  </main>
+  
+  <footer>
+    <p>&copy;TPROG Módulo II</p>
+  </footer>
+</body>
+</html>
